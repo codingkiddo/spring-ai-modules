@@ -5,3 +5,4 @@ spring:
       chat:
         options:
           model: llama3
+
