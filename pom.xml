@@ -74,10 +74,10 @@
            <groupId>org.springframework.boot</groupId>
            <artifactId>spring-boot-starter-data-jpa</artifactId>
        </dependency>
-       <dependency>
+       <!--<dependency>
            <groupId>org.springframework.ai</groupId>
            <artifactId>spring-ai-openai-spring-boot-starter</artifactId>
-       </dependency>
+       </dependency>-->
        <dependency>
            <groupId>org.hsqldb</groupId>
            <artifactId>hsqldb</artifactId>
@@ -109,10 +109,10 @@
            <artifactId>ollama</artifactId>
            <scope>test</scope>
        </dependency>
-       <dependency>
+       <!--<dependency>
            <groupId>org.springframework.boot</groupId>
            <artifactId>spring-boot-docker-compose</artifactId>
-       </dependency>
+       </dependency>-->
        <dependency>
             <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-redis-store-spring-boot-starter</artifactId>

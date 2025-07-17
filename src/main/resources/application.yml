@@ -1,8 +1,12 @@
 spring:
+  main:
+       allow-bean-definition-overriding: true
   ai:
+    model:
+       embedding: none
     ollama:
       base-url: http://localhost:11434
       chat:
         options:
-          model: llama3
+          model: llama3.2
 
