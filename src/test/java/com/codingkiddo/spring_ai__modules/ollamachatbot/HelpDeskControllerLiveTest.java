@@ -10,7 +10,6 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
-import org.springframework.ai.ollama.OllamaChatModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -30,9 +29,6 @@ public class HelpDeskControllerLiveTest {
 
 	@Autowired
 	private MockMvc mockMvc;
-
-	@Autowired
-	private OllamaChatModel ollamaChatClient;
 
 	@Autowired
 	private HelpDeskChatbotAgentService helpDeskChatbotAgentService;
