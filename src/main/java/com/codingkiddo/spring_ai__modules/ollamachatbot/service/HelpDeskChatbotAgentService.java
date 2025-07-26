@@ -83,6 +83,7 @@ public class HelpDeskChatbotAgentService {
             .getOutput()
             .getText();
         var contextHistoryEntry = new HistoryEntry(userMessage, response);
+        System.out.println(contextHistoryEntry);
         currentHistory.add(contextHistoryEntry);
 
         return response;
